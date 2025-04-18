@@ -1,2 +1,10 @@
 1. Create git repo and clone the repository
 2. Create code.py and add code to it. (To save csv file to a new "Data" folder)
+3. Do a git add commit push before initializing dvc
+4. pip install dvc
+5. Now we do "dvc init" (creates .dvcignore .dvc)
+6. make a newdir mkdir s3
+7. Now we do dvc add data/ (You will get an error because git is handling the data folder.
+Now remove the tracking of folder by Git)
+8. Now try dvc add data/ again
+9. 
