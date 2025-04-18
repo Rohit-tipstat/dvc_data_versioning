@@ -10,8 +10,8 @@ data = {"Name": ["Alice", "Bob", "Charlie"],
 df = pd.DataFrame(data)
 
 # adding a new row to the DF for v2
-# new_row_loc = ["Name": "v2", "Age": 20, "City": "City1"]
-#df.loc[len(df.index)] = new_row_loc
+new_row_loc = {"Name": "v2", "Age": 20, "City": "City1"}
+df.loc[len(df.index)] = new_row_loc
 
 # adding a new row to the DF for v3
 # new_row_loc2 = ["Name": "v3", "Age": 30, "City": "City1"]
